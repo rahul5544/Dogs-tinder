@@ -1,0 +1,162 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    /* section part padding */
+}
+
+.iphone-img {
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+@media (max-width: 988px) {
+    .iphone-img {
+        transform: rotate(0deg);
+        width: 60%;
+        /* when max-width used in media query then it will execute when it goes down by 988px*/
+        /* when min-width used in media query then it will execute when it goes down by 988px*/
+    }
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* padding:0 0 4.5rem; */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+.download-button {
+    margin: 6px 6px 6px 6px;
+}
+
+#features {
+    /* featuer section */
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.iconfa {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.iconfa:hover {
+    color: #ff4c68;
+}
+
+/* testimonioal section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colom {
+    padding: 3% 2%;
+}
+
+.cus-navbar {
+    bottom: 25px;
+    /* Custom Navbar class to modifiy its bottom */
+}
+
+#cta {
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+
+.mlast {
+    position: relative;
+    top: 85px;
+}
+
+.mlast-btn {
+    position: relative;
+    top: 95px;
+}
+
+.foot-icon{
+    text-align: center;
+    position: relative;
+    top: 35px;
+    /* footer icon */
+}
+
+.foot-text{
+    text-align: center;
+    position: relative;
+    top: 45px;
+    /* footer text */
+}
+
+.ficon{
+    position: relative;
+    margin: 6px;
+    /* spacing between footer icons */
+}
